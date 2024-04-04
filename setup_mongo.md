@@ -8,3 +8,9 @@ use admin
 ```
 ```db.createUser({user: "superadmin", pwd: passwordPrompt(), roles: [ "root" ]})```
 
+### Create Database User
+- [https://www.mongodb.com/docs/manual/reference/method/db.createUser/]
+
+```
+db.createUser({user: "db-user-name", pwd: passwordPrompt(), roles: [{role: "readWrite", db: "database-name"}]})
+```
