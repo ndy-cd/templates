@@ -2,5 +2,9 @@
 
 ## Create Admin User
 
-```db.createUser({user: "superadmin", pwd: passwordPrompt(), roles[ "root" ]})```
+```bash
+mongosh
+use admin
+```
+```db.createUser({user: "superadmin", pwd: passwordPrompt(), roles: [ "root" ]})```
 
