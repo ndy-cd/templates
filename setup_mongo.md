@@ -14,3 +14,6 @@ use admin
 ```
 db.createUser({user: "db-user-name", pwd: passwordPrompt(), roles: [{role: "readWrite", db: "database-name"}]})
 ```
+
+### Connection URI
+```mongodb+srv://[username:password@]host[/[defaultauthdb][?options]]
