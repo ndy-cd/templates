@@ -16,4 +16,6 @@ db.createUser({user: "db-user-name", pwd: passwordPrompt(), roles: [{role: "read
 ```
 
 ### Connection URI
-```mongodb+srv://[username:password@]host[/[defaultauthdb][?options]]
+```
+mongodb+srv://[username:password@]host[/[defaultauthdb][?options]]
+```
