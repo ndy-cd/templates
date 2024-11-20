@@ -24,6 +24,8 @@ https://github.com/nats-io/nats-server/blob/main/util/nats-server.service
 
 ## develop
 
-https://faststream.airt.ai/latest/nats/
+- [faststream as connector](https://faststream.airt.ai/latest/nats/)
+
 https://docs.nats.io/using-nats/developer/develop_jetstream
 
+- kv: [nats.io](https://docs.nats.io/using-nats/developer/develop_jetstream/kv#creating-and-deleting-kv-buckets)
